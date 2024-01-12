@@ -5,13 +5,13 @@ body {
     font-size: 16px;
     line-height: 1.5;
     text-align: center; 
-    margin: 0;
+    margin: 20px 30px;
 }
 
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Helvetica', sans-serif;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 
@@ -38,7 +38,7 @@ a {
 .rect-img, .rounded-image {
     border: 2px solid darkblue;
     display: block; 
-    margin: 0 auto; 
+    margin:  auto; 
     width: 50%; 
     max-width: 600px; 
     height: auto;
@@ -67,6 +67,10 @@ p {
     display: inline-block;
     margin: 10px;
     padding: 10px;
+}
+.bottom-container {
+    margin: 10px;
+    padding:10px;
 }
 footer {
     color: rgb(91, 75, 226);

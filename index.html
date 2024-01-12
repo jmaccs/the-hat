@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+    <script src="geometry.js"></script>
+   
     <title>The Hat - an aperiodic monotile</title>
     
 </head>
 <body>
+    
 <main>
     <h1>The Hat</h1>
     <h2>An Aperiodic Monotile, or "Einstein" tile</h2>
     <img src="https://cs.uwaterloo.ca/~csk/hat/examples/threefold.png" alt="An image of a large tesselated pattern made up of hundreds of interlocking polygons, which have been coloured white grey and different shades of blue to highlight the compound aperiodic patterns that emerge from their tiling." class="rounded-image">
-    <h3>Contents</h3>
+    <h2>Contents</h2>
     <ul>
         <li><a href="#introduction"> Introduction </a></li>
-        <li><a href="#rendering"> Rendering the "hat in JavaScript </a></li>
+        <li><a href="#rendering"> Rendering the "hat" in JavaScript </a></li>
         <li><a href="#links">Further Reading</a></li>
     </ul>
    
@@ -50,15 +54,21 @@
     </div>
 </div>
 </section>
-    <section id="Links">
-    <p>Further reading:</p>
+
+<section id="Links">
+    <p>Links:</p>
     <ul>
     <li><a href="https://arxiv.org/abs/2303.10798"> Original Paper</a></li>
-    <li><a href="https://www.youtube.com/watch?v=W-ECvtIA-5A" target="_blank"> Animation of the monotile by Kaplan</a></li>
+    <li><a href="https://cs.uwaterloo.ca/~csk/hat/" target="_blank"> UWaterloo CS Hub for Hat Tile with further resources</a></li>
     </ul>
 </section>
+
+<div id="bottom-container">
+    <script src="hat.js"></script>
+</div>
+
 </main>
-    <footer>© 2024 J McCarney</footer>
+    <footer>© 2024 David Smith, Joseph Samuel Myers, Craig S. Kaplan, and Chaim Goodman-Strauss, 2023. Reproduced under 3-Clause BSD License</footer>
     
 </body>
 </html>
