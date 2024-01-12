@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>The Hat - an aperiodic monotile</title>
+    
+</head>
+<body>
+<main>
+    <h1>The Hat</h1>
+    <h2>An Aperiodic Monotile, or "Einstein" tile</h2>
+    <img src="https://cs.uwaterloo.ca/~csk/hat/examples/threefold.png" alt="An image of a large tesselated pattern made up of hundreds of interlocking polygons, which have been coloured white grey and different shades of blue to highlight the compound aperiodic patterns that emerge from their tiling." class="rounded-image">
+    <h3>Contents</h3>
+    <ul>
+        <li><a href="#introduction"> Introduction </a></li>
+        <li><a href="#rendering"> Rendering the "hat in JavaScript </a></li>
+        <li><a href="#links">Further Reading</a></li>
+    </ul>
+   
+    <section id="introduction">
+    <p>
+    In a paper published in 2023 by David Smith, Joseph Samuel Myers, Craig S. Kaplan, and Chaim Goodman-Strauss, the authors address a longstanding open problem concerning aperiodic monotiles, also referred to as "einsteins." The focus of the research is on topological disk tiles, and the paper provides a solution by presenting a continuous set of combinatorially equivalent aperiodic polygons.
+
+    The key demonstration involves the "hat" polykite, identified as a representative example, which has the ability to form clusters known as "metatiles." Subsequently, substitution rules are defined for these metatiles, leading to tilings of the plane. The paper establishes that the hat polykite, and by extension, the entire continuum of polygons presented, exhibit aperiodic properties through a novel geometric incommensurability argument.
+        
+    Additionally, the authors offer a combinatorial, computer-assisted proof demonstrating that the hat polykite must inevitably form hierarchical tilings, thereby confirming its aperiodic nature. This research contributes to addressing the long-standing challenge of identifying aperiodic monotiles in the context of topological disk tiles.</p>
+    </section>
+    <section id="rendering">
+        
+    <h2>Rendering the "hat" in Javascript</h2>
+    <img src="https://scx1.b-cdn.net/csz/news/800a/2023/close-relative-of-aper.jpg" alt="Close relative of aperiodic tile 'the hat' found to be a true chiral aperiodic monotile" title="The 14-sided polygon Tile(1, 1), shown on the left, is a weakly chiral aperiodic monotile: if by fiat we forbid tilings that mix unreflected and reflected tiles, then it admits only non-periodic tilings. By modifying its edges, as shown in the center and right for example, we obtain strictly chiral aperiodic monotiles called &quot;Spectres&quot; that admit only non-periodic tilings even when reflections are permitted. Credit: arXiv (2023). DOI: 10.48550/arxiv.2305.17743" class="rect-img">
+    <div class="grid-container">
+    <div class="render-text">
+    <p>
+    Motivated by the educational value and the enjoyment derived from exploring mathematical concepts through interactive programming, I find rendering the "hat" polykite in JavaScript to be a fascinating project. By creating a visual representation of the aperiodic nature of the hat, individuals can gain a deeper understanding of the underlying geometric principles and appreciate the complexity of aperiodic tilings. To achieve this in JavaScript, one might follow these steps:
+    </p>
+    </div>
+    <div class="render-list">
+
+    <ol>
+        <li>Define Geometric Parameters: Establish the geometric properties of the hat polykite, including vertices, edges, and angles, to accurately represent its shape.</li>
+        <li>Canvas Setup: Utilize HTML5 Canvas or a similar graphics library to set up a drawing area for rendering the hat polykite on a web page.</li>
+        <li>Implement Rendering Algorithm: Develop a JavaScript algorithm to calculate and draw the polygons, incorporating the defined geometric parameters.</li>
+        <li>Interactive Features: Enhance the educational experience by adding interactive elements, such as zooming or dragging, to allow users to explore the rendered hat polykite dynamically.</li>
+        <li>Educational Annotations: Include educational annotations or tooltips to explain key geometric concepts and the significance of the hat polykite's aperiodicity, enhancing the learning experience for users.</li>
+    
+    </ol>
+    </div>
+</div>
+</section>
+    <section id="Links">
+    <p>Further reading:</p>
+    <ul>
+    <li><a href="https://arxiv.org/abs/2303.10798"> Original Paper</a></li>
+    <li><a href="https://www.youtube.com/watch?v=W-ECvtIA-5A" target="_blank"> Animation of the monotile by Kaplan</a></li>
+    </ul>
+</section>
+</main>
+    <footer>© 2024 J McCarney</footer>
+    
+</body>
+</html>
